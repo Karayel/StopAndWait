@@ -1,29 +1,29 @@
 # StopAndWait
 
-[b]Sender Command Line Syntax[/b]
+<b>Sender Command Line Syntax</b>
 
 The command line syntax for your sending is given below.The client program takes command line argument
 of the remote IP address and port number, and the name of the file to transmit. The syntax for launching your
 sending program is therefore:
 
-sendfile -r [recv host]:[recv port] -f [filename]
+<b>sendfile -r [recv host]:[recv port] -f [filename]</b>
 
-[recv host] (Required) The IP address of the remote host in a.b.c.d format.
+recv host --> (Required) The IP address of the remote host in a.b.c.d format.
 
-[recv port] (Required) The UDP port of the remote host.
+recv port --> (Required) The UDP port of the remote host.
 
-[filename] (Required) The name of the file (with its full path) to send.
+filename --> (Required) The name of the file (with its full path) to send.
 
-[b]Receive Command Line Syntax[/b]
+<b>Receive Command Line Syntax</b>
 
 The command line syntax for your receiving program is given below.
 
-recvfile -p [recv port]
+<b>recvfile -p [recv port]</b>
 
-[recv port] (Required) The UDP port to listen on.
+recv port --> (Required) The UDP port to listen on.
 
 
-[b] How Its Works! [/b]
+<b> How Its Works! </b>
 
 1. javac sendfile.java
 2. javac recvfile.java
