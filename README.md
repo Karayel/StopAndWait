@@ -13,6 +13,7 @@ To aid in grading and debugging, your sending program should print out messages 
 sender sends a packet (including retransmission), it should print the following to standard error:
 
 <b>Receive Command Line Syntax</b>
+
 The command line syntax for your receiving program is given below.
 recvfile -p <recv port>
 <recv port> (Required) The UDP port to listen on.
